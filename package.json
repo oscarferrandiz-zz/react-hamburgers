@@ -2,9 +2,11 @@
   "name": "react-hamburgers",
   "version": "1.0.0",
   "description": "React component for Jonathan Suh's hamburguers",
-  "main": "index.js",
+  "main": "dist/hamburger.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/eslint --ext .js --ext .jsx .",
+    "dist": "./node_modules/.bin/gulp dist",
+    "dev": "./node_modules/.bin/gulp dev"
   },
   "repository": {
     "type": "git",
@@ -24,5 +26,16 @@
     "classnames": "^2.2.5",
     "prop-types": "^15.5.10",
     "react": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-3": "^6.22.0",
+    "del": "^2.2.2",
+    "eslint": "^3.15.0",
+    "eslint-config-vizzuality": "^1.0.3",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
   }
 }
