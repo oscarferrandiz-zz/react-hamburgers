@@ -1,0 +1,27 @@
+{
+  "name": "react-hamburgers",
+  "version": "1.0.0",
+  "description": "React component for Jonathan Suh's hamburguers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscarferrandiz/react-hamburgers.git"
+  },
+  "keywords": [
+    "react",
+    "hamburguers"
+  ],
+  "author": "Óscar Ferrándiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscarferrandiz/react-hamburgers/issues"
+  },
+  "homepage": "https://github.com/oscarferrandiz/react-hamburgers#readme",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^15.5.4"
+  }
+}
