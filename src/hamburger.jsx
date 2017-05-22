@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
-export default function Hamburger({ active, type }) {
+export default function Hamburger({ active, type, ...props }) {
 
   const cNames = classnames(
     'hamburger',
@@ -11,7 +11,7 @@ export default function Hamburger({ active, type }) {
   );
 
   return (
-    <button className={cNames} type="button">
+    <button type="button" className={cNames} {...props}>
       <span className="hamburger-box">
         <span className="hamburger-inner" />
       </span>
