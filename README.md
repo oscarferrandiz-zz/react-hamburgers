@@ -1,20 +1,20 @@
 # react-hamburgers
 React component for Jonathan Suh's hamburguers (https://jonsuh.com/hamburgers/)
 
-Install this package with:
+* Install this package with:
 ```
 npm i -S react-hamburgers
 ```
 
-Configure hamburgers following the oficial doc (https://github.com/jonsuh/hamburgers)
+* Configure hamburgers in your project following the oficial doc (https://github.com/jonsuh/hamburgers)
 
-Use `react-hamburgers` component as follows:
+* Use `react-hamburgers` component as follows:
 
 ```
 import React from 'react';
 import Hamburger from 'react-hamburgers';
 
-export default class MyComponent extends React.Component() {
+export default class MyComponent extends React.Component {
 
   constructor(props) {
     super(props);
