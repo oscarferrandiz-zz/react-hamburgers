@@ -6,7 +6,8 @@
   "scripts": {
     "test": "./node_modules/.bin/eslint --ext .js --ext .jsx .",
     "dist": "./node_modules/.bin/gulp dist",
-    "dev": "./node_modules/.bin/gulp dev"
+    "dev": "./node_modules/.bin/gulp dev",
+    "prepublishOnly": "npm run test && npm run dist"
   },
   "repository": {
     "type": "git",
