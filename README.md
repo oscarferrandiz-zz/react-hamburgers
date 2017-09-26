@@ -2,7 +2,7 @@
 React component for Jonathan Suh's hamburguers (https://jonsuh.com/hamburgers/)
 
 * Install this package with:
-```
+```sh
 npm i -S react-hamburgers
 ```
 
@@ -10,7 +10,7 @@ npm i -S react-hamburgers
 
 * Use `react-hamburgers` component as follows:
 
-```
+```js
 import React from 'react';
 import Hamburger from 'react-hamburgers';
 
