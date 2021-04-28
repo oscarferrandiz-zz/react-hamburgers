@@ -15,10 +15,13 @@ gulp.task('clean', () => {
 });
 
 gulp.task('js', () => {
-  gulp.src('src/**/*.{js,jsx}')
-    .pipe(babel({
-      presets: ['react', 'env', 'stage-3']
-    }))
+  gulp
+    .src('src/**/*.{js,jsx}')
+    .pipe(
+      babel({
+        presets: ['react', 'env', 'stage-3']
+      })
+    )
     .pipe(gulp.dest(CONFIG.dist));
 });
 

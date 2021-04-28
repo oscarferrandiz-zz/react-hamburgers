@@ -1,7 +1,7 @@
 {
   "name": "react-hamburgers",
   "version": "1.0.0",
-  "description": "React component for Jonathan Suh's hamburguers",
+  "description": "React component for Jonathan Suh's hamburgers",
   "main": "dist/hamburger.js",
   "scripts": {
     "test": "./node_modules/.bin/eslint --ext .js --ext .jsx .",
@@ -14,7 +14,7 @@
   },
   "keywords": [
     "react",
-    "hamburguers"
+    "hamburgers"
   ],
   "author": "Óscar Ferrándiz",
   "license": "ISC",
@@ -25,7 +25,7 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "prop-types": "^15.5.10",
-    "react": "^15.5.4"
+    "react": "^17.0.2"
   },
   "devDependencies": {
     "babel-preset-env": "^1.4.0",
@@ -35,10 +35,11 @@
     "del": "^2.2.2",
     "eslint": "^3.15.0",
     "eslint-config-vizzuality": "^1.0.3",
+    "eslint-plugin-react": "^7.23.2",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2"
   },
   "peerDependencies": {
-    "hamburgers": "^0.8.1"
+    "hamburgers": "^1.1.3"
   }
 }

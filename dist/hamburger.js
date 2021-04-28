@@ -27,9 +27,13 @@ function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in ob
 function Hamburger(_ref) {
   var active = _ref.active,
       type = _ref.type,
-      props = _objectWithoutProperties(_ref, ['active', 'type']);
+      _ref$mode = _ref.mode,
+      mode = _ref$mode === undefined ? 'light' : _ref$mode,
+      props = _objectWithoutProperties(_ref, ['active', 'type', 'mode']);
 
-  var cNames = (0, _classnames2.default)('hamburger', 'hamburger--' + type, { 'is-active': active });
+  var cNames = (0, _classnames2.default)('hamburger', 'hamburger--' + type, 'hamburger-inner-color-mode-' + mode, {
+    'is-active': active
+  });
 
   return _react2.default.createElement(
     'button',
