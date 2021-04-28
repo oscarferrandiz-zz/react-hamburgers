@@ -6,13 +6,17 @@ React component for Jonathan Suh's hamburguers (https://jonsuh.com/hamburgers/)
 npm i -S react-hamburgers
 ```
 
-* Configure hamburgers in your project following the oficial doc (https://github.com/jonsuh/hamburgers)
+* Install hamburgers following the official doc (https://github.com/jonsuh/hamburgers)
+```
+npm i -S hamburgers
+```
 
 * Use `react-hamburgers` component as follows:
 
 ```
 import React from 'react';
 import Hamburger from 'react-hamburgers';
+import 'hamburgers/dist/hamburgers.css';
 
 export default class MyComponent extends React.Component {
 
